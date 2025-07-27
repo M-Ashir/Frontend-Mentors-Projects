@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+div{
+    width: 440px;
+    height: 340px;
+    margin: 8em 10em 1em 25.5em;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 100%);
+}
+div img {
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+ p{
+    display: flex;
+    position: absolute;
+    top: 10.5em;
+    left: 50.5em;
+    color: hsl(228, 12%, 48%);
+    font-family: monospace;
+}
+h2{
+    display: flex;
+    position: absolute;
+    top: 6.5em;
+    left: 27.25em;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clas{
+    display: flex;
+    position: absolute;
+    top: 20.5em;
+    left: 50.15em;
+    font-size: small;
+    color: hsl(228, 12%, 48%);
+    font-family: mont;
+}
+#iden{
+    display: flex;
+    position: absolute;
+    top: 13.5em;
+    left: 26.12em;
+    font-size: small;
+    color: hsl(158, 36%, 37%);
+    font-size: 25px;
+    font-family: mont;
+}
+del{
+    display: flex;
+    position: absolute;
+    top: 36.35em;
+    left: 75em;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    font-family: mont;
+}
+input{
+    width: 14.5em;
+    height: 2.75em;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+    font-size: 12px;
+    border: none;
+    position: absolute;
+    top: 67%;
+    left: 51%;
+}
+#iden1{
+    position: absolute;
+    top: 68.5%;
+    left: 54%;
+    z-index: 1;
+    width: 1%;
+    mix-blend-mode:color-dodge;
+    height: 2%;
+}
